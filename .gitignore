@@ -22,3 +22,6 @@ build
 eclipse
 output
 run
+
+# gradle wrapper binaries
+gradle/wrapper/gradle-wrapper.jar
