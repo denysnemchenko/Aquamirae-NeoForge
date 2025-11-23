@@ -17,7 +17,6 @@ java {
 
 neoForge {
     version = neoforge_version
-    mappings channel: mapping_channel, version: mapping_version
 
     mods {
         create(mod_id) {
