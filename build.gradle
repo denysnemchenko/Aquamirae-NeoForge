@@ -26,7 +26,6 @@ neoForge {
 
     runs {
         client {
-            workingDirectory project.file('run')
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             systemProperty 'forge.logging.console.level', 'debug'
             systemProperty 'forge.enabledGameTestNamespaces', mod_id
@@ -34,7 +33,6 @@ neoForge {
         }
 
         server {
-            workingDirectory project.file('run')
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             systemProperty 'forge.logging.console.level', 'debug'
             systemProperty 'forge.enabledGameTestNamespaces', mod_id
@@ -42,7 +40,6 @@ neoForge {
         }
 
         gameTestServer {
-            workingDirectory project.file('run')
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             systemProperty 'forge.logging.console.level', 'debug'
             systemProperty 'forge.enabledGameTestNamespaces', mod_id
@@ -50,7 +47,6 @@ neoForge {
         }
 
         data {
-            workingDirectory project.file('run')
             systemProperty 'forge.logging.markers', 'REGISTRIES'
             systemProperty 'forge.logging.console.level', 'debug'
             modSource project.sourceSets.main
