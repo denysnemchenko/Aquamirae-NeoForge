@@ -5,6 +5,10 @@ pluginManagement {
             name = 'NeoForged'
             url = 'https://maven.neoforged.net/releases'
         }
+        maven {
+            name = 'NeoForgedSnapshots'
+            url = 'https://maven.neoforged.net/snapshots'
+        }
     }
 }
 
